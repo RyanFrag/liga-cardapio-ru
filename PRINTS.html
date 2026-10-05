@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Print Â· Cardapio RU</title>
+<link rel="stylesheet" href="prints.css">
+<style>.tb{background:#b45309}.btn.main{background:#b45309}</style>
+</head>
+<body>
+<div class="topo">
+  <h1>Cardapio RU</h1>
+  <span>Olhe as telas. Monte parecido. Nao precisa pixel-perfect.</span>
+</div>
+<div class="grid">
+  <div class="bloco">
+    <h2>1 Â· Lista</h2>
+    <div class="fone">
+      <div class="tb"><span>Cardapio RU</span><span style="font-weight:600;font-size:0.8rem;">sair</span></div>
+      <div class="pad">
+        <div class="item"><div><strong>Arroz + feijao</strong><div class="muted">comum</div></div><span class="badge ok">+</span></div>
+        <div class="item"><div><strong>Opcao vegana</strong><div class="muted">veg</div></div><span class="badge ok">+</span></div>
+        <div class="item"><div><strong>Frango grelhado</strong><div class="muted">comum</div></div><span class="badge ok">+</span></div>
+        <div class="item"><div><strong>Salada</strong><div class="muted">veg · esgotou</div></div><span class="badge ok">+</span></div>
+        <div class="item"><div><strong>Sobremesa</strong><div class="muted">comum</div></div><span class="badge ok">+</span></div>
+        <button class="btn main">Continuar</button>
+      </div>
+    </div>
+  </div>
+  <div class="bloco">
+    <h2>2 Â· Regra</h2>
+    <div class="fone">
+      <div class="tb"><span>Cardapio RU</span><span style="font-weight:600;font-size:0.8rem;">voltar</span></div>
+      <div class="pad">
+        <span class="chip on">Veg</span><span class="chip">Comum</span><span class="chip">Todos</span><div class="item" style="margin-top:8px;"><div><strong>Opcao vegana</strong></div><span class="badge ok">ok</span></div><div class="item"><div><strong>Salada</strong><div><span class="badge bad">esgotou</span></div></div><span class="badge off">—</span></div><div class="aviso erro">Item esgotado nao entra no pedido</div><button class="btn main">Confirmar bandeja</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
